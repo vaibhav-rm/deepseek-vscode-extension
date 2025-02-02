@@ -4,10 +4,10 @@ import ollama from 'ollama'
 export function activate(context: vscode.ExtensionContext) {
 	console.log("Ollama vscode extension is now active!");
 
-	const disposable = vscode.commands.registerCommand('deepseek-vscode-chat.start', async () => {
+	const disposable = vscode.commands.registerCommand('ollama-vscode-chat.start', async () => {
 		const panel = vscode.window.createWebviewPanel(
-			'deepChat',
-			'Deep Seek Chat',
+			'ollamaChat',
+			'VS Ollama',
 			vscode.ViewColumn.One,
 			{ enableScripts: true }
 		);

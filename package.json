@@ -1,6 +1,6 @@
 {
-  "name": "deepseek-vscode-chat",
-  "displayName": "deepseek-vscode-chat",
+  "name": "ollama-vscode-chat",
+  "displayName": "ollama-vscode-chat",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "deepseek-vscode-chat.start",
+        "command": "ollama-vscode-chat.start",
         "title": "start extension"
       }
     ]

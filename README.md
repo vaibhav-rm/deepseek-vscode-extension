@@ -1,71 +1,72 @@
-# ollama-vscode-chat README
+# Ollama VSCode Chat
 
-This is the README for your extension "ollama-vscode-chat". After writing up a brief description, we recommend including the following sections.
+A Visual Studio Code extension that provides a user-friendly GUI for interacting with [Ollama](https://ollama.com), allowing you to select and chat with different local LLMs.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Integrated chat interface within VSCode
+- Easily switch between installed LLMs
+- Simple and lightweight, leveraging local models
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+To use this extension, you need:
 
-## Extension Settings
+1. **Ollama** installed on your system  
+2. At least one LLM installed via Ollama  
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Installation
 
-For example:
+### 1. Install Ollama
 
-This extension contributes the following settings:
+Ollama is required to run local models. Follow the instructions below to install it:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+#### **Linux & macOS**
+Run the following command in your terminal:
 
-## Known Issues
+```sh
+curl -fsSL https://ollama.com/install.sh | sh
+```
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+#### **Windows**
+Download and install [Ollama for Windows](https://ollama.com/download).
 
-## Release Notes
+### 2. Install a Small LLM
 
-Users appreciate release notes as you update your extension.
+After installing Ollama, you need at least one model to start chatting. Here are some lightweight models you can try:
 
-### 1.0.0
+```sh
+ollama pull gemma
+ollama pull mistral
+ollama pull tiny-llama
+```
 
-Initial release of ...
+### 3. Install the Extension
 
-### 1.0.1
+1. Open **VSCode**  
+2. Go to **Extensions** (`Ctrl+Shift+X`)  
+3. Search for `ollama-vscode-chat`  
+4. Click **Install**  
 
-Fixed issue #.
+## Usage
 
-### 1.1.0
+1. Open the **Ollama Chat** panel in VSCode  
+2. Select an installed LLM from the dropdown  
+3. Start chatting!  
 
-Added features X, Y, and Z.
+## Screenshots
 
----
+### Ollama Chat Interface in VSCode
+![Ollama Chat Panel](screenshots/chat_panel.png)
 
-## Following extension guidelines
+### Selecting an LLM
+![Model Selection](screenshots/model_selection.png)
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+## Notes
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+- Ensure Ollama is running before using the extension  
+- If no models are found, install one using `ollama pull <model-name>`  
 
-## Working with Markdown
+## License
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+MIT License

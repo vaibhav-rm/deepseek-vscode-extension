@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "deepseek-vscode-chat.hello",
-        "title": "Hello World"
+        "command": "deepseek-vscode-chat.start",
+        "title": "start extension"
       }
     ]
   },

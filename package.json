@@ -40,5 +40,10 @@
   },
   "dependencies": {
     "ollama": "^0.5.12"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "git@github.com:vaibhav-rm/ollama-vscode-extension.git"
 }
+}
+

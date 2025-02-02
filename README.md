@@ -57,10 +57,10 @@ ollama pull tiny-llama
 ## Screenshots
 
 ### Ollama Chat Interface in VSCode
-![Ollama Chat Panel](screenshots/chat_panel.png)
+![Ollama Chat Panel](https://i.ibb.co/cXDNzhz3/chat-panel.png)
 
 ### Selecting an LLM
-![Model Selection](screenshots/model_selection.png)
+![Model Selection](https://i.ibb.co/1GfqXJJN/model-selection.png)
 
 ## Notes
 

@@ -3,7 +3,7 @@
   "displayName": "ollama-vscode-chat",
   "publisher": "Vaibhavrathod",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -47,8 +47,7 @@
     "ollama": "^0.5.12"
   },
   "repository": {
-  "type": "git",
-  "url": "git@github.com:vaibhav-rm/ollama-vscode-extension.git"
+    "type": "git",
+    "url": "git@github.com:vaibhav-rm/ollama-vscode-extension.git"
+  }
 }
-}
-

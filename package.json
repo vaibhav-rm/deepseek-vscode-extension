@@ -18,6 +18,10 @@
       {
         "command": "ollama-vscode-chat.start",
         "title": "Ollama Chat"
+      },
+      {
+        "command": "ollama-vscode-chat.download",
+        "title": "Ollama Download New Model"
       }
     ]
   },

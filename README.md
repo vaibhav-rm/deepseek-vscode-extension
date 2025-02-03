@@ -27,7 +27,7 @@ To use this extension, you need:
 2. Select an installed LLM from the dropdown  
 3. Start chatting!  
 
-### **Download New LLMs**  
+### **Download New LLMs**  (Not yet implemented)
 To install new models from Ollama directly through VSCode:  
 1. Press **`Ctrl + P`**, then type:  
 

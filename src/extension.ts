@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
 			'VS Ollama',
 			vscode.ViewColumn.One,
 			{ enableScripts: true }
-		);
+		);												
 
 		// Fetch available models and send them to the webview
 		let models: string[] = [];

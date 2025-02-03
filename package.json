@@ -1,8 +1,10 @@
 {
   "name": "ollama-vscode-chat",
   "displayName": "ollama-vscode-chat",
+  "publisher": "Vaibhavrathod",
   "description": "",
   "version": "0.0.1",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -15,7 +17,7 @@
     "commands": [
       {
         "command": "ollama-vscode-chat.start",
-        "title": "start extension"
+        "title": "Ollama Chat"
       }
     ]
   },

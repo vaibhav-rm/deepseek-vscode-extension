@@ -18,10 +18,10 @@ To use this extension, you need:
 ## **Usage**  
 
 ### **Open the Ollama Chat Panel**  
-1. Press **`Ctrl + P`**, then type:  
+1. Press **`Ctrl + Shift + P`**, then type:  
 
 ```sh
-> Ollama Chat
+ Ollama Chat
 ```
 
 2. Select an installed LLM from the dropdown  
@@ -29,10 +29,10 @@ To use this extension, you need:
 
 ### **Download New LLMs**  (Not yet implemented)
 To install new models from Ollama directly through VSCode:  
-1. Press **`Ctrl + P`**, then type:  
+1. Press **`Ctrl + Shift + P`**, then type:  
 
 ```sh
-> Ollama Download New Model
+ Ollama Download New Model
 ```
 2. Choose a model and download it. 
 
@@ -57,9 +57,9 @@ Download and install [Ollama for Windows](https://ollama.com/download).
 After installing Ollama, you need at least one model to start chatting. Here are some lightweight models you can try:
 
 ```sh
-ollama pull gemma
+ollama pull deepseek-r1:1.5b
 ollama pull mistral
-ollama pull tiny-llama
+ollama pull llama3.2:3b
 ```
 
 ### 3. Install the Extension
@@ -78,10 +78,11 @@ ollama pull tiny-llama
 ## Screenshots
 
 ### Ollama Chat Interface in VSCode
-![Ollama Chat Panel](https://i.ibb.co/cXDNzhz3/chat-panel.png)
+![Ollama Chat Panel](https://imgdb.in/mrUD.jpg)
+
 
 ### Selecting an LLM
-![Model Selection](https://i.ibb.co/1GfqXJJN/model-selection.png)
+![Model Selection](https://imgdb.in/mrUF.jpg)
 
 ## Notes
 

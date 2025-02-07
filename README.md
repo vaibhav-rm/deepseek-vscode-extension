@@ -18,10 +18,10 @@ To use this extension, you need:
 ## **Usage**  
 
 ### **Open the Ollama Chat Panel**  
-1. Press **`Ctrl + P`**, then type:  
+1. Press **`Ctrl + Shift + P`**, then type:  
 
 ```sh
-> Ollama Chat
+ Ollama Chat
 ```
 
 2. Select an installed LLM from the dropdown  
@@ -29,10 +29,10 @@ To use this extension, you need:
 
 ### **Download New LLMs**  (Not yet implemented)
 To install new models from Ollama directly through VSCode:  
-1. Press **`Ctrl + P`**, then type:  
+1. Press **`Ctrl + Shift + P`**, then type:  
 
 ```sh
-> Ollama Download New Model
+ Ollama Download New Model
 ```
 2. Choose a model and download it. 
 

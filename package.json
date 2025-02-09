@@ -1,13 +1,17 @@
 {
   "name": "ollama-vscode-chat",
-  "displayName": "ollama-vscode-chat",
+  "displayName": "Ollama VSCode Chat",
   "publisher": "Vaibhavrathod",
-  "description": "",
+  "description": "A VSCode extension that integrates with Ollama AI for interactive chat and model management.",
   "version": "0.3.0",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
+    "AI",
+    "Chat",
+    "Machine Learning",
+    "Data Science",
     "Other"
   ],
   "activationEvents": [],

@@ -78,11 +78,10 @@ ollama pull llama3.2:3b
 ## Screenshots
 
 ### Ollama Chat Interface in VSCode
-![Ollama Chat Panel](https://imgdb.in/mrUD.jpg)
-
+![Ollama Chat Panel](https://i.ibb.co/Kc9hXgSf/image.png)
 
 ### Selecting an LLM
-![Model Selection](https://imgdb.in/mrUF.jpg)
+![Model Selection](https://i.ibb.co/xSm7bjH9/image.png)
 
 ## Notes
 

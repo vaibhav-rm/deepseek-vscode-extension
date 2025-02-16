@@ -77,18 +77,80 @@ function getWebViewContent(models: string[]): string {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #1e1e1e; color: #fff; margin: 0; padding: 0; }
-            .container { padding: 20px; display: flex; flex-direction: column; gap: 10px; }
-            h2 { text-align: center; color: #61dafb; }
-            select, textarea, button { width: 100%; padding: 10px; border-radius: 5px; border: none; font-size: 14px; background: #333; color: #fff; }
-            button { background: #007acc; cursor: pointer; }
-            button:hover { background: #005f99; }
-            #response { background: #333; padding: 15px; border-radius: 5px; overflow-y: auto; height: 250px; }
-            .message { margin: 5px 0; padding: 8px 12px; border-radius: 6px; }
-            .user { background: #007acc; align-self: flex-end; }
-            .ai { background: #444; align-self: flex-start; }
-        </style>
+<style>
+    body { 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        background-color: #1e1e1e; 
+        color: #fff; 
+        margin: 0; 
+        padding: 0; 
+    }
+
+    .container { 
+        padding: 20px; 
+        display: flex; 
+        flex-direction: column; 
+        gap: 10px; 
+        max-width: 500px; /* Ensures all elements stay aligned */
+        margin: 0 auto; /* Centers the card */
+    }
+
+    h2 { 
+        text-align: center; 
+        color: #61dafb; 
+    }
+
+    select, textarea, button, #response { 
+        width: 100%; 
+        padding: 10px; 
+        border-radius: 5px; 
+        border: none; 
+        font-size: 14px; 
+        background: #333; 
+        color: #fff; 
+        box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    }
+
+    textarea { 
+        resize: vertical; 
+        min-height: 50px; 
+        max-height: 200px; 
+    }
+
+    button { 
+        background: #007acc; 
+        cursor: pointer; 
+    }
+
+    button:hover { 
+        background: #005f99; 
+    }
+
+    #response { 
+        background: #333; 
+        padding: 15px; 
+        border-radius: 5px; 
+        overflow-y: auto; 
+        height: 250px; 
+    }
+
+    .message { 
+        margin: 5px 0; 
+        padding: 8px 12px; 
+        border-radius: 6px; 
+    }
+
+    .user { 
+        background: #007acc; 
+        align-self: flex-end; 
+    }
+
+    .ai { 
+        background: #444; 
+        align-self: flex-start; 
+    }
+</style>
+
     </head>
     <body>
         <div class="container">
